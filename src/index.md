@@ -29,6 +29,6 @@ features:
   - icon: 💉
     title: vite-plugin-inject-html
     details: A Vite plugin for injecting element nodes to the entry HTML file.
-    link: /libraries/vite-plugin-inject-html
+    link: /docs/vite-plugin-inject-html
     linkText: View Docs
 ---
