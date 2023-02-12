@@ -16,7 +16,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     nav: [
-      { text: 'Docs', link: '/docs/', activeMatch: '/docs/' }
+      { text: 'Documentations', link: '/docs/', activeMatch: '/docs/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xsjcTony' },
@@ -30,7 +30,7 @@ export default defineConfig({
     sidebar: {
       '/docs/': [
         {
-          text: 'Docs',
+          text: 'Overview',
           items: [
             {
               text: 'Getting Started',

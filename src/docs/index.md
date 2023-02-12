@@ -9,9 +9,9 @@ aside: false
 
 This page contains all docs of libraries I published, feel free to navigate through.
 
-If you have any issues about any of these libraries, please raise issues in the corresponding repository.
+If you have any issues about any of these libraries, please raise it in the corresponding repository.
 
-If you think there's something to improve with the docs, please [raise the issue here](https://github.com/xsjcTony/docs/issues).
+If you think there's something to improve with the docs, please [raise issues or create pull requests here](https://github.com/xsjcTony/docs/issues).
 
 
 ## Libraries
