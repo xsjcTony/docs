@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Aelita",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  }
+}
