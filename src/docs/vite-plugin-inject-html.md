@@ -10,7 +10,10 @@ outline: [2, 3]
 
 
 
-## install
+## Install
+
+- `Node.js` >= 14.18.0
+- `Vite` >= 2.0.0
 
 ```bash
 pnpm add -D vite-plugin-inject-html
@@ -47,7 +50,7 @@ export default defineConfig({
 - [`externalStyleSheets`](#externalStyleSheets) - external style sheet urls
 - [`scripts`](#scripts) - `<script>` tags
 - [`noscripts`](#noscripts) - `<noscript>` tags
-- [`otherTags`](#otherTags) - other tags or customized `injectTo` behavior
+- [`otherTags`](#otherTags) - other tags or customizing `injectTo`
 
 
 
