@@ -1,8 +1,7 @@
-import './custom.css'
-
 import defaultTheme from 'vitepress/theme'
 import PackageVersion from '../vitepress/components/PackageVersion.vue'
 import type { Theme } from 'vitepress'
+import './custom.css'
 
 
 const theme: Theme = {
