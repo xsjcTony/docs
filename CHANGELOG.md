@@ -1,3 +1,9 @@
+## 1.0.3 (2023-02-14)
+
+* feat: Added external icon to external links
+* update: vite-plugin-inject-html docs
+
+
 ## 1.0.2 (2023-02-12)
 
 * update: vite-plugin-inject-html docs ([633dd4f](https://github.com/xsjcTony/docs/commit/633dd4f))
