@@ -7,22 +7,18 @@ outline: [2, 3]
 
 [View on GitHub](https://github.com/xsjcTony/vite-plugin-inject-html)
 
-<br />
 
-Available Options
 
-- [`favicon`](#favicon) - favicon url
-- [`title`](#title) - title
-- [`metas`](#metas) - `<meta>` tags
-- [`links`](#links) - `<link>` tags
-- [`externalStyleSheets`](#externalStyleSheets) - external style sheet urls
-- [`scripts`](#scripts) - `<script>` tags
-- [`noscripts`](#noscripts) - `<noscript>` tags
-- [`otherTags`](#otherTags) - other tags or customized `injectTo` behavior
 
-<br />
+## install
 
-Basic usage
+```bash
+pnpm add -D vite-plugin-inject-html
+```
+
+
+
+## Basic usage
 
 ```ts {7-9}
 // vite.config.ts
@@ -42,7 +38,21 @@ export default defineConfig({
 
 
 
-## favicon
+## Available Options
+
+- [`favicon`](#favicon) - favicon url
+- [`title`](#title) - title
+- [`metas`](#metas) - `<meta>` tags
+- [`links`](#links) - `<link>` tags
+- [`externalStyleSheets`](#externalStyleSheets) - external style sheet urls
+- [`scripts`](#scripts) - `<script>` tags
+- [`noscripts`](#noscripts) - `<noscript>` tags
+- [`otherTags`](#otherTags) - other tags or customized `injectTo` behavior
+
+
+
+
+### favicon
 
 - inject `<link rel="icon" href="..." />`
 
@@ -94,7 +104,7 @@ export default defineConfig({
 
 
 
-## title
+### title
 
 - inject `<title>...</title>`
 - It will replace the existing `<title>` tag
@@ -145,7 +155,7 @@ export default defineConfig({
 
 
 
-## metas
+### metas
 
 - inject `<meta ... />` tags
 
@@ -209,7 +219,7 @@ export default defineConfig({
 
 
 
-## links
+### links
 
 - inject `<link ... />` tags
 
@@ -281,7 +291,7 @@ export default defineConfig({
 
 
 
-## externalStyleSheets
+### externalStyleSheets
 
 - inject `<link rel="stylesheet" type="text/css" href="..." />`
 
@@ -340,7 +350,7 @@ export default defineConfig({
 
 
 
-## scripts
+### scripts
 
 - inject `<script>` tags
 - `injectTo` default to `body` if not specified
@@ -452,7 +462,7 @@ export default defineConfig({
 
 
 
-## noscripts
+### noscripts
 
 - inject `<noscript>` tags
 - `injectTo` default to `body` if not specified
@@ -541,7 +551,7 @@ export default defineConfig({
 
 
 
-## otherTags
+### otherTags
 
 - inject any other tags
 - customize `injectTo` for options above

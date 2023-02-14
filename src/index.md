@@ -16,10 +16,10 @@ hero:
       text: View Docs
       link: /docs/
     - theme: alt
-      text: View my GitHub
+      text: View my GitHub 🔗
       link: https://github.com/xsjcTony
     - theme: alt
-      text: View my Site
+      text: View my Portfolio 🔗
       link: https://aelita.me/
 
 features:
