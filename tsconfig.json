@@ -9,8 +9,8 @@
     "strict": true
   },
   "include": [
-    "./**/*.js",
-    "./**/*.ts",
+    "./.vitepress/**/*.ts",
+    "./.vitepress/**/*.vue",
     "./*.js",
     "./*.ts"
   ]

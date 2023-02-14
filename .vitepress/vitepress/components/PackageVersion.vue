@@ -22,5 +22,5 @@ onMounted(async () => {
 </script>
 
 <template>
-  <VPBadge type="tip" :text="`v${version}`" />
+  <VPBadge type="tip" :text="`v${version}`" v-if="version" />
 </template>
