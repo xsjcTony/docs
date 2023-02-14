@@ -3,7 +3,7 @@ outline: [2, 3]
 ---
 
 
-# vite-plugin-inject-html <Badge type="tip" text="v1.0.3" />
+# vite-plugin-inject-html <PackageVersion name="vite-plugin-inject-html" />
 
 [View on GitHub](https://github.com/xsjcTony/vite-plugin-inject-html)
 

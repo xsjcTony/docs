@@ -1,3 +1,9 @@
+## 1.0.4 (2023-02-15)
+
+* update: vite-plugin-inject-html docs
+* feat: PackageVersion component, dynamically fetch the package version
+
+
 ## 1.0.3 (2023-02-14)
 
 * feat: Added external icon to external links
