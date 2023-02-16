@@ -5,8 +5,11 @@ import externalLinkIcon from './plugins/external-link-icon'
 export default defineConfig({
   outDir: './dist',
   srcDir: './src',
-  lastUpdated: true,
+  vue: {
+    reactivityTransform: true
+  },
 
+  lastUpdated: true,
   lang: 'en-US',
   appearance: 'dark',
   title: `Aelita`,

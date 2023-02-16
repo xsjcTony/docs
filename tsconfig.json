@@ -6,12 +6,16 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [".vitepress/*"],
+    }
   },
   "include": [
-    "./.vitepress/**/*.ts",
-    "./.vitepress/**/*.vue",
-    "./*.js",
-    "./*.ts"
+    "src",
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.vue",
+    ".eslintrc.js"
   ]
 }

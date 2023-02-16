@@ -47,10 +47,10 @@ export default defineConfig({
 - [`title`](#title) - title
 - [`metas`](#metas) - `<meta>` tags
 - [`links`](#links) - `<link>` tags
-- [`externalStyleSheets`](#externalStyleSheets) - external style sheet urls
+- [`externalStyleSheets`](#externalstylesheets) - external style sheet urls
 - [`scripts`](#scripts) - `<script>` tags
 - [`noscripts`](#noscripts) - `<noscript>` tags
-- [`otherTags`](#otherTags) - other tags or customizing `injectTo`
+- [`otherTags`](#othertags) - other tags or customizing `injectTo`
 
 
 
