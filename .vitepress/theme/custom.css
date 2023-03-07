@@ -28,10 +28,21 @@
     backdrop-filter: saturate(50%) blur(4px);
 }
 
-.VPNavBar.has-sidebar .curtain::before {
+:root.dark .VPNavBar.has-sidebar .content-body {
+    background-color: unset !important;
+}
+
+:root.dark .VPNavBar.has-sidebar .curtain::before {
     display: none !important;
 }
 
-:root.dark .VPNavBar.has-sidebar .content-body {
-    background-color: unset;
+
+@media (min-width: 1440px) {
+    .VPNavBar.has-sidebar .content-body {
+        background-color: unset !important;
+    }
+
+    .VPNavBar.has-sidebar .curtain::before {
+        display: none !important;
+    }
 }

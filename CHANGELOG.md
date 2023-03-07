@@ -1,7 +1,13 @@
+## 1.0.6 (2023-03-07)
+- chore: fix changelog for `v1.0.5`
+- update: Only enable navbar style on wide screen for light mode
+
+
 ## 1.0.5 (2023-03-07)
 - feat: `Element-Plus` style navbar in dark mode
 - update: remove usage of reactivity transform
 - chore: update packages
+- feat: add DocSearch (Algolia)
 
 
 ## 1.0.4 (2023-02-15)
