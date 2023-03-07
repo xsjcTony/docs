@@ -20,3 +20,18 @@
 .vp-doc h3 {
     margin-top: 64px;
 }
+
+
+.VPNavBar.has-sidebar .content-body {
+    background-image: radial-gradient(transparent 1px, var(--vp-nav-bg-color) 1px);
+    background-size: 4px 4px;
+    backdrop-filter: saturate(50%) blur(4px);
+}
+
+.VPNavBar.has-sidebar .curtain::before {
+    display: none !important;
+}
+
+:root.dark .VPNavBar.has-sidebar .content-body {
+    background-color: unset;
+}

@@ -1,3 +1,9 @@
+## 1.0.5 (2023-03-07)
+- feat: `Element-Plus` style navbar in dark mode
+- update: remove usage of reactivity transform
+- chore: update packages
+
+
 ## 1.0.4 (2023-02-15)
 
 * update: vite-plugin-inject-html docs

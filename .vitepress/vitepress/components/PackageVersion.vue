@@ -1,6 +1,5 @@
 <script lang="ts" setup>
-import { onMounted } from 'vue'
-import { $ref } from 'vue/macros'
+import { onMounted, ref } from 'vue'
 import VPBadge from 'vitepress/dist/client/theme-default/components/VPBadge.vue'
 
 
@@ -10,15 +9,15 @@ interface PackageVersionProps {
 }
 
 
-const { name, tag = 'latest' } = defineProps<PackageVersionProps>()
+const props = defineProps<PackageVersionProps>()
 
-let version = $ref<string>()
+const version = ref<string>()
 
 onMounted(async () => {
-  const res = await fetch(`https://registry.npmjs.org/${name}/${tag}`)
+  const res = await fetch(`https://registry.npmjs.org/${props.name}/${props.tag ?? 'latest'}`)
   const data = await res.json()
 
-  version = data.version
+  version.value = data.version
 })
 </script>
 

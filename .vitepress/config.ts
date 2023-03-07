@@ -5,9 +5,6 @@ import externalLinkIcon from './plugins/external-link-icon'
 export default defineConfig({
   outDir: './dist',
   srcDir: './src',
-  vue: {
-    reactivityTransform: true
-  },
 
   lastUpdated: true,
   lang: 'en-US',
@@ -25,6 +22,11 @@ export default defineConfig({
   },
   themeConfig: {
     logo: '/logo.svg',
+    algolia: {
+      appId: 'O3XWEBE8G1',
+      apiKey: '1fad505b10dc8655db5200674d596f95',
+      indexName: 'aelita'
+    },
     nav: [
       { text: 'Documentations', link: '/docs/', activeMatch: '/docs/' }
     ],
