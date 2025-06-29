@@ -12,8 +12,8 @@ outline: [2, 3]
 
 ## Install
 
-- `Node.js` >= 14.18.0
-- `Vite` >= 2.0.0
+- `Node.js` >= 16.0.0
+- `Vite` >= 4.0.0
 
 ```bash
 pnpm add -D vite-plugin-inject-html
